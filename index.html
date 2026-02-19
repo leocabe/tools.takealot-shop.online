@@ -1,6 +1,61 @@
 <!doctype html>
 <html lang="pt">
 <head>
+     <!-- UTMIFY SCRIPT -->
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+<!-- END UTMIFY -->
+
+
+<!-- UTMIFY PIXEL -->
+<script>
+  window.pixelId = "67918adf0b80f52dd2589822";
+  var a = document.createElement("script");
+  a.async = true;
+  a.defer = true;
+  a.src = "https://cdn.utmify.com.br/scripts/pixel/pixel.js";
+  document.head.appendChild(a);
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;
+n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s);
+}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '3159562094185233');
+fbq('track', 'PageView');
+
+window.addEventListener("load", function(){
+  fbq('track', 'ViewContent');
+});
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3159562094185233&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Takealot Tools</title>
@@ -2527,4 +2582,5 @@ modalImg.addEventListener("touchend", e => {
 
 </body>
 </html>
+
 
